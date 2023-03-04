@@ -13,8 +13,7 @@
 // Your function code starts here...
 
 function rectArea(sideA, sideB){
-  var area = sideA * sideB;
-  return area;
+  return sideA * sideB;
 }
 
 // Use the function you created above to calculate the areas of 3 rooms
@@ -41,8 +40,7 @@ var room3 = rectArea(4, 8);
 // Your code goes here...
 
 function totalRoomsArea(area1, area2, area3){
-  var totalRoomsArea = area1 + area2 + area3;
-  return totalRoomsArea;
+  return area1 + area2 + area3;
 }
 
 // Make the function call in the parentheses of the console.log statement.

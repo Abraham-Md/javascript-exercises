@@ -44,31 +44,25 @@ doesArrayIncludeItemsBetweenVals([2, 4, 2], 3, 5);
 
 // Your code goes here...
 
-function getValueWithConditionOne(value1, value2){
-  if (value1 == 40 && value2 == 40) {
+function getValueWithConditionOne(value1, value2) {
+  if (value1 === 40 && value2 === 40) {
     return value1 + value2; 
-  } else {
-    var answer = ((value1 * 2) + (value2 * 2));
-    return answer;
-  }
+  } 
+  return (value1 + value2) * 2;
 }
 
 const getValueWithConditionTwo = (value1, value2) => {
-  if (value1 == 40 && value2 == 40) {
+  if (value1 === 40 && value2 === 40) {
     return value1 + value2; 
-  } else {
-    var answer = ((value1 * 2) + (value2 * 2));
-    return answer;
-  }
+  } 
+  return (value1 + value2) * 2;
 }
 
-const getValueWithConditionThree = function(value1, value2){
-  if (value1 == 40 && value2 == 40) {
+const getValueWithConditionThree = function(value1, value2) {
+  if (value1 === 40 && value2 === 40) {
     return value1 + value2; 
-  } else {
-    var answer = ((value1 * 2) + (value2 * 2));
-    return answer;
-  }
+  } 
+  return (value1 + value2) * 2;
 }
 
 // === TEST YOURSELF ===
